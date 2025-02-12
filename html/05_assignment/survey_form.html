@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Survey Form</title>
+    </head>
+    <body>
+        <h1>Survey Form</h1>
+        <form>
+            <label for="FullName">Full Name:</label>
+            <input type="text" id="FullName" name="FullName"><br><br>
+            <label for="email">Email Address:</label>
+            <input type="email" id="Email Address" name="Email Address"><br><br>
+
+            <fieldset>
+                <legend>How satisfied are you with our service?</legend>
+                <input type="radio" id="Very-Satisfied" name="satisfied">
+                <label for="very-satisfied">Very Satisfied</label><br>
+                <input type="radio" id="Satisfied" name="satisfied">
+                <label for="satisfied">Satisfied</label><br>
+                <input type="radio" id="Neutral" name="satisfied">
+                <label for="Neutral">Neutral</label><br>
+                <input type="radio" id="Dissatisfied" name="satisfied">
+                <label for="Dissatisfied">Dissatisfied</label><br>
+                <input type="radio" id="Very Dissatisfied" name="satisfied">
+                <label for="Very Dissatisfied">Very Dissatisfied</label><br>
+            </fieldset><br>
+
+            <fieldset>
+                <legend>What features do you value most?</legend>
+                <input type="radio" id="Ease of Use" name="features">
+                <label for="ease-of-use">Ease of Use</label><br>
+                <input type="radio" id="Design" name="features">
+                <label for="Design">Design</label><br>
+                <input type="radio" id="Customer Support" name="features">
+                <label for="Customer Support">Customer Support</label><br>
+            </fieldset><br>
+
+            <label for="description">What best describes you?</label>
+            <select id="description" name="description">
+                <option value="Student">Student</option>
+                <option value="Professional">Professional</option>
+                <option value="Hobbyist">Hobbyist</option>
+                <option value="Other">Other</option>
+            </select><br><br>
+
+            <label for="message">Additional Feedback:</label><br>
+            <textarea id="message" name="message" rows="10" cols="50"></textarea><br>
+            <button>Submit</button>
+            
+        </form>
+    </body>
+</html>
