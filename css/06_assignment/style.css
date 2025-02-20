@@ -1,0 +1,169 @@
+/* * {
+    border: 1px solid lightblue;
+} */
+body {
+    font-family:Verdana, Tahoma, sans-serif;
+    margin: 0;
+    background-color: #212529;
+    text-align: center;
+    align-items: center;
+    line-height: 2;
+}
+
+.top {
+    background-color: #6e2cf3;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0;
+}
+
+nav {
+    color: whitesmoke;
+    padding-left: 340px;
+    gap: 15px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    
+}
+
+nav a {
+    color: #e8d9fc;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.search{
+    left: 44%;
+    position: absolute;
+}
+
+.search_bar {
+    background-color: #6327db;
+    border: 1px solid #c4aef1;
+    border-radius: 5px;
+    padding: 10px 60px 10px 15px;
+}  
+
+input::placeholder {
+    color: #c4adf1;
+}
+
+span{
+    display: block;
+}
+h1 {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 1.1;
+    margin: 10px 0px;
+}
+
+h1, h2 {
+    color: white;
+    
+}
+h2 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 400;
+
+}
+h3 {
+    color: #aeb2b6;
+    padding: 10px 0;
+    margin: 5px 0;
+    font-weight: 100;
+    line-height: 1.7;
+}
+
+.top-bootstrap-logo{
+    background: #6e2cf3;
+    width: 40px;
+    height: 32px;
+}
+
+
+.middle-bootstrap-logo {
+    margin-top: 40px;
+    width: 180px;
+    height: 150px;
+}
+
+.latest_version, .read-docs {
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    font-size: 16px;
+    margin: 0px 5px;
+}
+.latest_version {
+    background-color: #303337;
+    border: 1px solid #3b3e42;
+    padding: 20px 50px 20px 20px;
+    letter-spacing: 1px;
+
+}
+.read-docs {
+    background-color: #6e2cf3;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 35px;
+}
+
+ul {
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    gap: 0 25px;
+    font-size: 13px;
+    color: #aeb2b6;
+    margin-top: 15px;
+  
+}
+li a {
+    color: #a0adb4;
+    padding: 0px;
+
+}
+ul .version {
+    list-style-type: none;
+}
+
+.version a {
+    text-decoration: none;
+}   
+
+.darker-a {
+    color: #6c757d;
+}   
+
+.angle-brackets{
+    color: #6f2cf5;
+    background-color: #28253e;
+    border-radius: 10px;
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+    margin: 50px 15px 0px 15px;
+
+}
+
+p {
+    color: #dee2e6;
+    padding: 0;
+    margin: 0;
+    font-weight: 100;
+    line-height: 1.7;
+}
+.read-installation-docs {
+    margin-bottom: 80px;
+    padding-top: 15px;
+    
+}
+.read-installation-docs, a {
+    color: #6ea8fe;
+}
+
