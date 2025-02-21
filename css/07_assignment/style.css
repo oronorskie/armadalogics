@@ -12,7 +12,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
 
-.container-top {
+header {
     background-image: url(netflix_image_asset/netflixbg.jpg);
     background-size: cover;
     width: 100vw;
@@ -94,7 +94,7 @@ h5 {
 
 form {
     display: flex;
-    gap: 16px;
+    gap: 7px;
 }
 .email, .btn-get-started {
     padding: 0px;
@@ -104,7 +104,7 @@ form {
 
 }
 .email {
-    background: #1a1a19;
+    background-color: #1a1a19;
     height: 53px;
     width: 400px;
     padding-left: 20px;
@@ -112,6 +112,9 @@ form {
     border: 1px solid #5e5e5e;
     color: white;
     font-size: 1rem;
+}
+::placeholder {
+    color: #b8b8b7;
 }
 .btn-get-started {
     background-color: #e50914;
@@ -142,6 +145,7 @@ ul {
     list-style-type: none;
     display: inline-flex;
     margin-top: 0;
+    margin-bottom: 20px;
 }
 
 li {
@@ -159,17 +163,18 @@ li button img {
 }
 
 .next {
-    margin: 75px 0px;
+    margin: 55px 0;
+    height: 150px;
     border-radius: 8px;
     border: 0;
     color: lightgray;
     background-color: #1a1a1a;
+    font-size: 24px;
 }
 
 .container-join {
     display: flex;
     margin: 0px auto;
-
     text-align: left;
 }
 
@@ -177,8 +182,8 @@ li button img {
     height: 322px;
     width: 287px;
     background-color: #192247;
-    margin: 15px;
-    padding: 32px 24px;
+    margin: 15px 10px;
+    padding: 8px 24px 32px 24px;
     border-radius: 10px;
 }
 
@@ -194,7 +199,7 @@ li button img {
 }
 
 footer{
-    padding: 100px 0px 50px 0px;
+    padding: 100px 0px 60px 0px;
     width: auto;
     display: flex;
     flex-direction: column;
@@ -204,8 +209,6 @@ footer{
 footer h5 {  
     margin: 15px;
 }
-
-
 
 .footer-email {
     padding: 0px 0px 0px 20px;
@@ -218,5 +221,4 @@ footer h5 {
     text-align: left;
     border: 1px solid #5e5e5e;
     font-size: 1rem;
-    
 }
