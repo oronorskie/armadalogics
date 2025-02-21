@@ -1,0 +1,222 @@
+/* * {
+    border: 0.5px solid red;
+    
+} */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+.container-top {
+    background-image: url(netflix_image_asset/netflixbg.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+ 
+}
+.overlay{
+    background: rgba(0, 0, 0, 0.7)
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px 0px;
+    
+}
+.logo_netflix {
+    color: #e50914;
+    fill: currentColor;
+    width: 140px;
+    height: 40px;
+}
+.nav-right {
+    display: flex;
+    gap: 10px;
+}
+.language, .btn-sign-in {
+    font-size: 15px;
+    border-radius: 5px; 
+}
+.language {
+    background-color: #111012;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+.btn-sign-in {
+    background-color: #e50914;
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+  
+.description {
+    width: auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 900;
+    height: 160px;
+    width: 680px;
+    display: block;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 250px;
+}
+
+h4 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+h5 {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+form {
+    display: flex;
+    gap: 16px;
+}
+.email, .btn-get-started {
+    padding: 0px;
+    margin: 0;
+    color: white;
+    border-radius: 5px;
+
+}
+.email {
+    background: #1a1a19;
+    height: 53px;
+    width: 400px;
+    padding-left: 20px;
+    text-align: left;
+    border: 1px solid #5e5e5e;
+    color: white;
+    font-size: 1rem;
+}
+.btn-get-started {
+    background-color: #e50914;
+    height: 55px;
+    width: 200px;
+    border: 1px solid #e50914;
+    color: white;
+    font-size: 1.5rem;
+}
+
+footer, .container-middle {
+    background-color: black;
+}
+
+.container-middle {
+    justify-content: center;
+    padding: 0px 300px;
+}
+h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    height: 43px;
+    text-align: start;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    display: inline-flex;
+    margin-top: 0;
+}
+
+li {
+    padding: 9px 22px;
+}
+
+li .trending-img {
+    padding: 0;
+    border: 0;
+    background-color: black;
+}
+
+li button img {
+    border-radius: 10px;
+}
+
+.next {
+    margin: 75px 0px;
+    border-radius: 8px;
+    border: 0;
+    color: lightgray;
+    background-color: #1a1a1a;
+}
+
+.container-join {
+    display: flex;
+    margin: 0px auto;
+
+    text-align: left;
+}
+
+.reasons-to-join {
+    height: 322px;
+    width: 287px;
+    background-color: #192247;
+    margin: 15px;
+    padding: 32px 24px;
+    border-radius: 10px;
+}
+
+.reasons-to-join h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.reasons-to-join p {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+footer{
+    padding: 100px 0px 30px 0px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer h5 {  
+    margin: 15px;
+}
+
+
+
+.footer-email {
+    padding: 0px 0px 0px 20px;
+    margin: 0;
+    color: white;
+    border-radius: 5px;
+    background: #1a1a19;
+    height: 53px;
+    width: 550px;
+    text-align: left;
+    border: 1px solid #5e5e5e;
+    font-size: 1rem;
+    
+}
