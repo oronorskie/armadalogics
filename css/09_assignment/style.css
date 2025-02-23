@@ -1,0 +1,302 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0D1117;
+    color: #9198A1;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #25292E;
+    color: white;
+    padding: 16px 32px;
+}
+header nav {
+    display: flex;
+    align-items: center;
+    height: 30px;
+}
+
+header nav a img {
+    margin-left: 4px;
+    height: 16px;
+    width: 16px;
+}
+
+.logo-github{
+    height: 32px;
+    width: 32px;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin: 10px;
+    padding: 0;
+}
+
+header a{
+    align-items: center;
+    color: whitesmoke;
+    padding: 6px 8px;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.container-form {
+    display: flex;
+    justify-content: flex-end;
+}
+form {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    align-items: center;
+    width: 985px;
+}
+
+.search-bar {
+    height: 32px;
+    width: 310px;
+    padding: 10px 10px 10px 30px;
+    font-size: 13px;
+    border-radius: 5px;
+    border: 1px solid #bbc0c5;
+    background-color: #25292E;
+    color: white;
+}
+
+.magnifying-glass, .slash {
+    position: absolute;
+    padding: 5px;
+}
+.magnifying-glass {
+    right: 280px;
+}
+
+.slash {
+    right: 0;
+}
+
+.sign-in, 
+.sign-up {
+    padding: 8px 10px;
+    margin-left: 10px;
+}
+
+.sign-up {
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+}
+
+.top-nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.top-nav ul a {
+    text-decoration: none;
+    margin: 0px 10px;
+    color: #9198A1;
+}
+
+.top-nav .explore {
+    border-bottom: 2px solid #1074E7;
+    color: white;
+    padding-bottom: 16px;
+}
+
+/* main */
+main {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.container {
+    width: 600px;
+    padding: 24px 16px;
+    padding-left: 300px;
+}
+
+h1 {
+    font-weight: 500;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+.popular, .collection {
+    border: 1px solid #3D444D;
+    border-radius: 10px;
+}
+
+.popular-img {
+    border-bottom: 1px solid #3D444D;
+    border-radius: 10px 10px 0px 0px;
+    height: 300px;
+    width: 100%;
+}
+
+.popular-container, .collection {
+    padding: 15px;
+}
+
+.title {
+    display: flex;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.title h5{
+    margin: 0;
+}
+.popular-container p {
+    margin-top: 10px;
+}
+
+.blue-link {
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #4493F8;
+}
+
+.article-link {
+    color: #4493F8;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* collection */
+.collection {
+    margin-top: 25px;
+}
+
+.h3-container {
+    display: flex;
+}
+
+.h3-container h3 {
+    background-color: #111D2F;
+    border-radius: 10px; 
+    margin: 0px 10px 10px 10px;
+    padding: 60px 65px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.description p {
+    padding: 10px 0px;
+}
+
+/* aside */
+aside {
+    /* border: 1px solid #3D444D; */
+    margin: 24px 16px;
+    width: 288px;
+    display: flex;
+    flex-direction: column;
+}
+
+aside article {
+    padding: 16px;
+}
+
+.trending-developers {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    border-radius: 5px;
+}
+
+.article-title {
+    border-radius: 5px 5px 0px 0px;
+    background-color: #151B23;
+    color: #F0F6FC;
+}
+
+aside article {
+    display: flex;
+    border: 1px solid #3D444D;
+    align-items: center;
+
+}
+article h4,
+article h5, 
+article p {
+    margin: 0;
+}
+
+article h4 {
+    color: #4493F8;
+}
+
+.user {
+    height: 80px;
+
+}
+.user-profile {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-code {
+    display: flex;
+    margin: 10px 0px;
+}
+
+.user-code img {
+  height: 20px;
+  margin: 2px 5px 0px 0px;
+}
+
+.article-footer {
+    border-radius: 0px 0px 5px 5px;
+}
+
+/* footer */
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 80px 0px 30px 0px
+}
+
+.footer-credits {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer-credits p,
+.footer-list a {
+    font-size: 14px;
+}
+.footer-list {
+    display: flex;
+    gap: 15px;
+    padding-left: 15px;
+}
+
+.footer-list li {
+    list-style: none;
+}
+
+.footer-list li a {
+    color: #9198A1;
+    text-decoration: none;
+}
