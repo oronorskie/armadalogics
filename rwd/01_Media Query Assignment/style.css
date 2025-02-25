@@ -1,0 +1,55 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+img {
+    height: 400px;
+    width: auto;
+}
+
+p {
+    padding: 0px 20px;
+}
+
+.card-one,
+.card-two,
+.card-three {
+    background-color: #F9F9F9;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px;
+    width: 350px;
+}
+
+/* Phone screens */
+@media (max-width: 480px) {
+    .card-one,
+    .card-two,
+    .card-three {
+        width: 100%;
+    }
+
+}
+
+  /* Tablet screens */
+@media (min-width: 481px) and (max-width: 1023px) {
+    .card-one,
+    .card-two,
+    .card-three {
+        width: 45%;
+    }
+}
+
+  /* Desktop screens */
+  @media (min-width: 1024px) {
+    .card-one,
+    .card-two,
+    .card-three {
+        width: 22%;
+    }
+  }
