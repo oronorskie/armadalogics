@@ -15,7 +15,6 @@ body {
 header {
     background-image: url(netflix_image_asset/netflixbg.jpg);
     background-size: cover;
-    width: 100vw;
     height: 100vh;
  
 }
