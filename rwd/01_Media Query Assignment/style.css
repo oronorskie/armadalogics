@@ -1,6 +1,5 @@
 main {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -28,28 +27,21 @@ p {
 
 /* Phone screens */
 @media (max-width: 480px) {
-    .card-one,
-    .card-two,
-    .card-three {
-        width: 100%;
-    }
-
+    main {
+        flex-wrap: wrap;
+  }
 }
 
   /* Tablet screens */
 @media (min-width: 481px) and (max-width: 1023px) {
-    .card-one,
-    .card-two,
-    .card-three {
-        width: 45%;
-    }
+    main {
+        flex-wrap: wrap;
+  }
 }
 
   /* Desktop screens */
-  @media (min-width: 1024px) {
-    .card-one,
-    .card-two,
-    .card-three {
-        width: 22%;
-    }
+  @media (min-width: 1024px)  {
+    main {
+        flex-wrap: wrap;
   }
+}
