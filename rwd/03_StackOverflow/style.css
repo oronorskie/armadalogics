@@ -1,0 +1,412 @@
+/* * {
+    border: 0.5px solid red;
+} */
+
+body {
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* header */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 56px;
+  width: 100%;
+  border-top: 4px solid #e7700d;
+  border-bottom: 1px solid #bbc0c5;
+}
+
+.logo {
+  height: 30px;
+  width: 150px;
+}
+
+form {
+    padding: 10px 8px;
+    border-radius: 10px;
+    width: 40vw;
+  }
+
+.search-bar {
+  height: 39px;
+  width: 100%;
+  padding: 10px 10px 10px 20px;
+  font-size: 13px;
+  border-radius: 5px;
+  border: 1px solid #bbc0c5;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+  margin: 0 20px;
+  color: #6d757d;
+}
+
+
+
+.header-right a {
+  text-decoration: none;
+}
+
+.sign-up,
+.btn-blue {
+  background-color: #1b75d0;
+  color: white;
+  text-decoration: none;
+}
+
+.log-in {
+  color: #1b75d0;
+}
+.log-in,
+.sign-up,
+.btn-blue {
+  padding: 8px 10px;
+  border: 1px solid #1b75d0;
+  border-radius: 5px;
+}
+/* end header */
+
+/* main */
+main {
+  display: flex;
+  justify-content: center;
+  margin: 0px auto;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+
+}
+aside {
+  width: 200px;
+  padding-top: 20px;
+}
+
+aside ul li {
+  display: flex;
+  list-style-type: none;
+  padding: 8px;
+}
+
+aside ul li img {
+  width: 20px;
+  height: 20px;
+}
+
+aside ul li a {
+  text-decoration: none;
+  font-size: 15px;
+  padding: 1px 10px;
+  color: #44494d;
+}
+
+.middle-list {
+  padding: 25px 0px;
+}
+
+.labs {
+  height: 25px;
+  align-items: center;
+}
+
+.labs h6 {
+  font-size: 13px;
+}
+
+/* main container */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 80px;
+  width: 100%;
+}
+
+.top-container {
+  background-color: #f9fafa;
+  border-radius: 10px;
+  padding: 20px;
+  height: 325px;
+  width: 100%;
+  position: relative;
+}
+
+.main-container h1 {
+  font-size: 24px;
+  margin: 40px 20px 0px 20px;
+}
+
+.top-container h1,
+p {
+  height: 100px;
+}
+.top-container h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 36px;
+  width: 427px;
+}
+
+.top-container p {
+  width: 495px;
+  margin: 0px 20px;
+}
+
+.top-container a {
+  margin-left: 20px;
+}
+.visit {
+  color: #1b75d0;
+  text-decoration: none;
+}
+.developer {
+  background: url(stack_overflow/background-image.png) no-repeat center;
+  background-size: contain;
+  color: white;
+  width: 180px;
+  text-align: center;
+  display: inline-block;
+}
+
+.img-hero {
+  position: absolute;
+  right: 4.5%;
+  bottom: 0;
+  height: 290px;
+}
+
+/* middle container */
+.middle-container .message {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  margin: 0;
+}
+
+.middle-container a {
+  padding-left: 10px;
+  margin-left: 20px;
+}
+
+.middle-container p {
+  margin: 0px 20px;
+}
+
+.logo-teams,
+.logo-overflow-ai,
+.logo-advertising,
+.logo-api,
+.logo-work-here {
+  width: 150px;
+  margin: 20px;
+}
+.logo-api {
+  height: 35.52px;
+}
+
+.for-teams,
+.overflow-ai,
+.advertising,
+.api,
+.work-here {
+  position: relative;
+  margin-bottom: 25px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.advertising,
+.api {
+  margin: 0px;
+}
+.for-teams,
+.advertising,
+.api {
+  height: 225px;
+}
+.for-teams p {
+  width: 450px;
+}
+
+.blue-text {
+  color: #1b75d0;
+}
+.overflow-ai p {
+  width: 510px;
+}
+
+.overflow-ai {
+  background-color: #3b4045;
+  color: white;
+  height: 225px;
+}
+
+.overflow-ai a {
+  text-decoration: none;
+  background-color: #e7700d;
+  color: white;
+  padding: 8px 10px;
+  border-radius: 5px;
+}
+
+.now-available {
+  font-weight: bold;
+}
+
+.img-teams,
+.img-ai {
+  position: absolute;
+  right: 0;
+  height: 220px;
+  bottom: 0;
+}
+
+/* container */
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.advertising,
+.api {
+  width: 500px;
+}
+
+/* work here */
+.work-here {
+  height: 190px;
+  position: relative;
+  margin: 0;
+}
+.work-here p {
+  width: 450px;
+  height: 75px;
+}
+
+.img-careers {
+  position: absolute;
+  right: 1%;
+  height: 300px;
+  bottom: 0;
+}
+
+.logo-work-here {
+  height: 30px;
+}
+
+/* Phone screens */
+@media (max-width: 480px) {
+    main {
+        width: 100vw;
+        margin-right: auto;
+    }
+    .about, .overflow {
+        display: none;
+    }
+
+    .top-container {
+        width: 90%;
+        height: 550px;
+    }
+
+    .for-teams, .overflow-ai{
+        width: 90%;
+        height: 430px;
+    }
+
+    .container {
+        flex-direction: column;
+        gap: 25px;
+        width: 90%;
+    }
+    
+    .advertising, .api {
+        width: 100%;
+    }
+ 
+    .work-here-container {
+        display: none;
+    }
+}
+ /* Tablet screens */
+@media (min-width: 481px) and (max-width: 1023px) {
+    main {
+        width: 100vw;
+        margin-right: auto;
+    }
+    .about, .overflow {
+        display: none;
+    }
+
+    .top-container {
+        width: 90%;
+        height: 550px;
+    }
+
+
+    .for-teams, .overflow-ai{
+        width: 90%;
+        height: 430px;
+    }
+
+    .container {
+        flex-direction: column;
+        gap: 25px;
+        width: 90%;
+    }
+    
+    .advertising, .api {
+        width: 100%;
+    }
+ 
+    .work-here-container {
+        display: none;
+    }
+}
+
+  /* Desktop screens */
+  @media (min-width: 1024px) {
+    main {
+        width: 100vw;
+        margin-right: auto;
+    }
+    
+    .top-container {
+        width: 90%;
+        height: 550px;
+    }
+
+
+    .for-teams, .overflow-ai{
+        width: 90%;
+        height: 430px;
+    }
+
+    .container {
+        flex-direction: column;
+        gap: 25px;
+        width: 90%;
+    }
+    
+    .advertising, .api {
+        width: 100%;
+    }
+ 
+    .work-here-container {
+        display: none;
+    }
+}
