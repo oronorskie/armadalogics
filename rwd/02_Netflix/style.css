@@ -232,7 +232,7 @@ footer h5 {
 }
 
   /* Phone screens */
-@media (max-width: 768px) {
+@media (max-width: 480px) {
 
     h1 {
         font-size: xx-large;
@@ -286,9 +286,95 @@ footer h5 {
         height: auto;
     }
 }
-  
-  /* Tablet screens */
-@media (min-width: 769px) and (max-width: 1023px) {
+
+@media (min-width: 481px) and (max-width: 647px){
+    h1 {
+        font-size: 40px;
+        width: 80%;
+        width: auto 0;
+    }
+    form {
+        justify-content: center;
+        width: 80%;
+    }
+    .email, .btn-get-started, .footer-email {
+        font-size: medium;
+        height: auto;
+        padding: 10px;
+    }
+
+    .footer-email {
+        width: 400px;
+    }
+
+    .container-middle {
+        padding: 0px 5rem;
+    }
+
+    .trending-now ul {
+        flex-direction: column;
+    }
+
+    li {
+        height: auto;
+    }
+
+    .container-join {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+    }
+    
+    .reasons-to-join{
+        width: 92%;
+        height: auto;
+    }
+}  
+
+@media (min-width: 648px) and (max-width: 684px){
+    h1 {
+        font-size: 52px;
+        width: 80%;
+    }
+    form {
+        justify-content: center;
+        width: 80%;
+    }
+    .email, .btn-get-started, .footer-email {
+        font-size: medium;
+        height: auto;
+        padding: 10px;
+    }
+
+    .footer-email {
+        width: 400px;
+    }
+
+    .container-middle {
+        padding: 0px 5rem;
+    }
+
+    .trending-now ul {
+        flex-direction: column;
+    }
+
+    li {
+        height: auto;
+    }
+
+    .container-join {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+    }
+    
+    .reasons-to-join{
+        width: 92%;
+        height: auto;
+    }
+}  
+
+@media (min-width: 685px) and (max-width: 1023px) {
     .container-middle {
         padding: 0px 5rem;
     }
@@ -303,7 +389,7 @@ footer h5 {
     }
     .reasons-to-join{
         width: 92%;
-        height: auto;
+        height: 9rem;
     }
 
     .footer-email {
